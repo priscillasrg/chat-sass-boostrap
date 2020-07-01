@@ -1,0 +1,166 @@
+/* 
+  * VARIABLES COLORS
+ */
+/* 
+  * HEADER
+ */
+img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.chat-header {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  background-color: #300647;
+}
+
+.chat-header-img {
+  border-radius: 50%;
+  width: 100px;
+  margin-left: 5%;
+  margin-top: 5px;
+  float: left;
+}
+
+.chat-header-user {
+  width: 120px;
+  float: left;
+  margin-top: 20px;
+}
+
+.chat-header-user h4 {
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.chat-header-user h6 {
+  font-size: 13px;
+  margin-left: 20px;
+  line-height: 2px;
+  color: #fff;
+}
+
+.chat-header-icons {
+  float: right;
+  padding: 25px 10px 0 0;
+}
+
+.chat-header-icons .fa {
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* 
+  * MAIN
+ */
+.chat {
+  background: #fff;
+  border: 1px solid #ccc;
+  height: 516px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.chat-time {
+  color: #646464;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.msg-received {
+  overflow: hidden;
+  margin: 26px 20px;
+}
+
+.msg-received-img {
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.msg-received-answer {
+  float: left;
+  width: 20%;
+}
+
+.msg-received p {
+  background: #efefef none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #000;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.msg-sent {
+  overflow: hidden;
+  margin: 26px 20px;
+}
+
+.msg-sent-img {
+  width: 50px;
+  margin-left: 10px;
+  float: right;
+}
+
+.msg-sent-answer {
+  float: right;
+  width: 20%;
+}
+
+.msg-sent p {
+  background: #c7c5c5 none repeat scroll 0 0;
+  color: #000;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+/* 
+  * FOOTER
+ */
+.chat-footer {
+  height: 80px;
+  background-color: #300647;
+}
+
+.input-group {
+  float: right;
+  margin-top: 13px;
+  margin-right: 20px;
+  outline: none !important;
+  border-radius: 20px;
+  width: 61% !important;
+  background-color: #fff;
+}
+
+.input-group-text {
+  background: transparent !important;
+  border: none !important;
+}
+
+.input-group .fa {
+  color: #300647;
+  float: right;
+  cursor: pointer;
+}
+
+.form-control {
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+.form-control :focus {
+  border-color: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */
