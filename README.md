@@ -5,7 +5,7 @@ Chat using Sass and Bootstrap.
 
 ## Getting started
 
-First install the dependencies`bootstrap, jquery, popper.js` using:
+First install the dependencies`bootstrap, jquery, popper.js, sass` using:
 
 ```bash
 npm install
